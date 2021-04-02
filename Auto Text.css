@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #111;
+}
+p{
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  font-family: monospace;
+}
+#start{
+  height: 60px;
+  width: 120px;
+  background: #00ddbb;
+  border-radius: 50px;
+  color: white;
+  font-family: monospace;
+  font-size: 19px;
+  border: none;
+  font-weight: bolder;
+  position:absolute;
+  left:47%;
+  top:20%;
+}
+#start:hover{
+	background-color: cyan;
+}
+div{
+	background-color: black;
+	border: 1px solid white;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+}
